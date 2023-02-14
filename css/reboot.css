@@ -1,0 +1,183 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	outline: none
+}
+
+h1 {
+	padding: 0;
+	margin: 0
+}
+
+h2 {
+	padding: 0;
+	margin: 0
+}
+
+h3 {
+	padding: 0;
+	margin: 0
+}
+
+h4 {
+	padding: 0;
+	margin: 0
+}
+
+h5 {
+	padding: 0;
+	margin: 0
+}
+
+h6 {
+	padding: 0;
+	margin: 0
+}
+
+p,
+hr {
+	padding: 0;
+	margin: 0
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+a {
+	display: inline-block;
+	color: #117ec6;
+	cursor: pointer
+}
+
+a:hover {
+	color: #1e8ccc;
+	text-decoration: underline
+}
+
+textarea {
+	line-height: 1.1rem !important;
+	outline: none
+}
+
+input {
+	outline: 0
+}
+
+input:-webkit-autofill {
+	box-shadow: 0 0 0px 1000px #fff inset
+}
+
+.form-control {
+	padding: .375rem .5rem
+}
+
+.tdn,
+.tdn:hover,
+.tdn:active {
+	text-decoration: none
+}
+
+.bg-disable {
+	background-color: #d7d7d7
+}
+
+.col-1 {
+	padding: 0
+}
+
+.col-2 {
+	padding: 0
+}
+
+.col-3 {
+	padding: 0
+}
+
+.col-4 {
+	padding: 0
+}
+
+.col-5 {
+	padding: 0
+}
+
+.col-6 {
+	padding: 0
+}
+
+.col-7 {
+	padding: 0
+}
+
+.col-8 {
+	padding: 0
+}
+
+.col-9 {
+	padding: 0
+}
+
+.col-10 {
+	padding: 0
+}
+
+.col-11 {
+	padding: 0
+}
+
+.col-12 {
+	padding: 0
+}
+
+.row {
+	margin: 0
+}
+
+.container {
+	padding: 0;
+	margin: 0;
+	max-width: none
+}
+
+.nav-link {
+	padding: 0
+}
+
+.nav-tabs .nav-link:focus:not([aria-current="page"]),
+.nav-tabs .nav-link:hover:not([aria-current="page"]) {
+	border: transparent 1px solid
+}
+
+.navbar-toggler:focus {
+	outline: none
+}
+
+.navbar {
+	padding: 0
+}
+
+textarea:focus,
+input:not([type="button"]):not([type="submit"]):focus,
+select:focus,
+.uneditable-input:focus .form-control:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	background-color: #fff !important;
+	border-color: #646464 !important;
+	border-width: 2px
+}
+
+input[type="button"],
+input[type="submit"],
+.btn.focus,
+.btn:focus {
+	box-shadow: none !important
+}
+
+.dropdown-item:active,
+.dropdown-item:hover {
+	color: #000000;
+	background-color: #d7d7d7
+}

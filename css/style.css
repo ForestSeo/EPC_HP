@@ -1,0 +1,33 @@
+#start {
+	background: #000000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9000;
+}
+
+#start img {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+	width: 8rem;
+}
+
+footer {
+	background-color: #585858;
+	padding: 1rem;
+}
+#footer_title {
+	color: white;
+	font-size: 1.5rem;
+}
+
+
+.footer-link, .footer-link:hover {
+	color: #000000;
+}
