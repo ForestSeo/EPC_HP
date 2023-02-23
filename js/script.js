@@ -6,3 +6,4 @@ $(function () {
 		$("#start").fadeOut(500);
 	}, 1600);
 });
+
