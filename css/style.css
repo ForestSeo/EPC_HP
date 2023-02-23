@@ -19,12 +19,17 @@
 }
 
 header {
-	background-color: #3e3e3e;
+	background-color: #4b4b4b;
 	height: 3.5rem;
 }
 
 #head-title {
 	color: #b0c4de;
+	text-decoration: none;
+}
+#head-title:hover {
+	color: #b0c4de;
+	text-decoration: none;
 }
 
 #head-nav > div > a {
@@ -33,6 +38,10 @@ header {
 }
 #head-nav > div > a:hover {
 	color: #c7c7d7;
+}
+
+#drawer-btn:focus {
+	outline: none;
 }
 
 
