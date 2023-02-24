@@ -19,16 +19,16 @@
 }
 
 header {
-	background-color: #4b4b4b;
+	background-color: #303030;
 	height: 3.5rem;
 }
 
 #head-title {
-	color: #b0c4de;
+	color: #87ceeb;
 	text-decoration: none;
 }
 #head-title:hover {
-	color: #b0c4de;
+	color: #87ceeb;
 	text-decoration: none;
 }
 
@@ -44,6 +44,10 @@ header {
 	outline: none;
 }
 
+#head-nav-container {
+	max-width: 70rem;
+	margin: 0 auto;
+}
 
 
 footer {
