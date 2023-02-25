@@ -49,6 +49,10 @@ header {
 	margin: 0 auto;
 }
 
+#head-icon {
+	height: 2.5rem;
+}
+
 
 footer {
 	background-color: #585858;
