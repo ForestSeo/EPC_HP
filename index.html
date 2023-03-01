@@ -19,6 +19,8 @@
 	<link rel="stylesheet" href="css/reset_drawer.css">
 	<link rel="stylesheet" href="css/style.css">
 
+	<script type="module" src="https://unpkg.com/@google/model-viewer@1.0.0/dist/model-viewer.min.js"></script>
+
 	<title>物理部展2023 | ホーム</title>
 </head>
 
@@ -59,18 +61,8 @@
 	</header>
 
 	<div id="main" class="m-3">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<h2>モックの内容</h2>
-					<p>モックの内容</p>
-				</div>
-				<div class="col-md-6">
-					<!-- <a class="twitter-timeline" href="https://twitter.com/EikoPhysicsClub?ref_src=twsrc%5Etfw">Tweets by EikoPhysicsClub</a>
-					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-				</div>
-			</div>
-		</div>
+		<model-viewer src="./3d/cube.glb" ios-src="model/PronamaChan.usdz" ar camera-controls>
+		</model-viewer>
 	</div>
 
 	<!-- jquery -->
